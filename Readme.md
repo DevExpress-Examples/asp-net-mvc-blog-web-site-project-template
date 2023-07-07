@@ -3,61 +3,33 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T591214)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
-
-* [FilterConfig.cs](./CS/WebBlog/App_Start/FilterConfig.cs)
-* [RouteConfig.cs](./CS/WebBlog/App_Start/RouteConfig.cs)
-* [WebApiConfig.cs](./CS/WebBlog/App_Start/WebApiConfig.cs)
-* [PagesController.BlogPosts.cs](./CS/WebBlog/Controllers/PagesController.BlogPosts.cs)
-* [PagesController.Contacts.cs](./CS/WebBlog/Controllers/PagesController.Contacts.cs)
-* [PagesController.Home.cs](./CS/WebBlog/Controllers/PagesController.Home.cs)
-* [Global.asax](./CS/WebBlog/Global.asax)
-* [Global.asax.cs](./CS/WebBlog/Global.asax.cs)
-* [BlogPosts.cs](./CS/WebBlog/Models/BlogPosts.cs)
-* [Comment.cs](./CS/WebBlog/Models/Comment.cs)
-* [ace.js](./CS/WebBlog/Scripts/ace.js)
-* [cldr.event.js](./CS/WebBlog/Scripts/cldr.event.js)
-* [cldr.js](./CS/WebBlog/Scripts/cldr.js)
-* [cldr.supplemental.js](./CS/WebBlog/Scripts/cldr.supplemental.js)
-* [cldr.unresolved.js](./CS/WebBlog/Scripts/cldr.unresolved.js)
-* [ext-language_tools.js](./CS/WebBlog/Scripts/ext-language_tools.js)
-* [globalize.currency.js](./CS/WebBlog/Scripts/globalize.currency.js)
-* [globalize.date.js](./CS/WebBlog/Scripts/globalize.date.js)
-* [globalize.message.js](./CS/WebBlog/Scripts/globalize.message.js)
-* [globalize.number.js](./CS/WebBlog/Scripts/globalize.number.js)
-* [site.js](./CS/WebBlog/Scripts/site.js)
-* [_ViewStart.cshtml](./CS/WebBlog/Views/_ViewStart.cshtml)
-* [AddCommentFormPartial.cshtml](./CS/WebBlog/Views/Pages/AddCommentFormPartial.cshtml)
-* [BlogCategoriesNavBarPartial.cshtml](./CS/WebBlog/Views/Pages/BlogCategoriesNavBarPartial.cshtml)
-* [BlogPost.cshtml](./CS/WebBlog/Views/Pages/BlogPost.cshtml)
-* [BlogPostPreviewPartial.cshtml](./CS/WebBlog/Views/Pages/BlogPostPreviewPartial.cshtml)
-* [BlogPostsDataViewPartial.cshtml](./CS/WebBlog/Views/Pages/BlogPostsDataViewPartial.cshtml)
-* [BlogTimeline.cshtml](./CS/WebBlog/Views/Pages/BlogTimeline.cshtml)
-* [Contacts.cshtml](./CS/WebBlog/Views/Pages/Contacts.cshtml)
-* [Home.cshtml](./CS/WebBlog/Views/Pages/Home.cshtml)
-* **[Search.cshtml](./CS/WebBlog/Views/Pages/Search.cshtml)**
-* [SearchGridViewPartial.cshtml](./CS/WebBlog/Views/Pages/SearchGridViewPartial.cshtml)
-* [_Layout.cshtml](./CS/WebBlog/Views/Shared/_Layout.cshtml)
-* [Boolean.cshtml](./CS/WebBlog/Views/Shared/DisplayTemplates/Boolean.cshtml)
-* [Boolean.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/Boolean.cshtml)
-* [DateTime.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/DateTime.cshtml)
-* [Decimal.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/Decimal.cshtml)
-* [EmailAddress.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/EmailAddress.cshtml)
-* [MultilineText.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/MultilineText.cshtml)
-* [Password.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/Password.cshtml)
-* [String.cshtml](./CS/WebBlog/Views/Shared/EditorTemplates/String.cshtml)
-* [HeaderPanelContentPartial.cshtml](./CS/WebBlog/Views/Shared/HeaderPanelContentPartial.cshtml)
-* [Web.config](./CS/WebBlog/Views/Web.config)
-<!-- default file list end -->
-# Blog Web Site (MVC project template from DevExpress Template Gallery)
+# ASP.NET MVC Extensions- A blog web site
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t591214/)**
 <!-- run online end -->
+This example is based on the **Blog Web Site** project template available in the [DevExpress Template Gallery](https://docs.devexpress.com/AspNetMvc/402256/whats-installed/template-gallery). The template uses [DevExpress ASP.NET MVC extensions](https://docs.devexpress.com/AspNetMvc/7896/aspnet-mvc-extensions) and [Bootstrap](https://getbootstrap.com/) elements to create a responsive web application with blog functions and integrated full-text search.
 
+![Blog Web Site](image.png)
 
-This website is based on the Blog Web Site project template available in the DevExpress Template Gallery. This template utilizes DevExpress ASP.NET AJAX controls in conjunction with the Bootstrap framework to create a website with multi-page design and responsive, mobile-friendly interface out of the box. By default, the website has a format of a blog with integrated full-text search - see <a href="https://codecentral.devexpress.com/T591214/Pages/Search">search page</a>.<br><br>If you are using a custom Bootstrap theme, it is recommended that you manually modify the base color in the DevExpress theme of your choice to better suit the overall color scheme. You can accomplish this task by <a href="https://documentation.devexpress.com/AspNet/118729/Common-Concepts/Appearance-Customization-Theming/Changing-Theme-Base-Color-and-Font-Settings">changing Theme Base Color</a>.<br>==<br>See also (WebForms version): <a href="https://www.devexpress.com/Support/Center/p/T590526">Blog Web Site (WebForms project template from DevExpress Template Gallery)</a>
+## Files to Review
 
-<br/>
+* [PagesController.BlogPosts.cs](./CS/WebBlog/Controllers/PagesController.BlogPosts.cs)
+* [PagesController.Contacts.cs](./CS/WebBlog/Controllers/PagesController.Contacts.cs)
+* [PagesController.Home.cs](./CS/WebBlog/Controllers/PagesController.Home.cs)
+* [BlogPosts.cs](./CS/WebBlog/Models/BlogPosts.cs)
+* [Comment.cs](./CS/WebBlog/Models/Comment.cs)
+* [BlogPost.cshtml](./CS/WebBlog/Views/Pages/BlogPost.cshtml)
+* [Contacts.cshtml](./CS/WebBlog/Views/Pages/Contacts.cshtml)
+* [Home.cshtml](./CS/WebBlog/Views/Pages/Home.cshtml)
+* [Search.cshtml](./CS/WebBlog/Views/Pages/Search.cshtml)
+* [SearchGridViewPartial.cshtml](./CS/WebBlog/Views/Pages/SearchGridViewPartial.cshtml)
+* [_Layout.cshtml](./CS/WebBlog/Views/Shared/_Layout.cshtml)
 
+## Documentation
 
+* [Template Gallery](https://docs.devexpress.com/AspNetMvc/402256/whats-installed/template-gallery)
+* [Project Wizard](https://docs.devexpress.com/AspNetMvc/402253/whats-installed/project-wizard)
+
+## More Examples
+
+* [ASP.NET Web Form Controls - A blog web site](https://github.com/DevExpress-Examples/blog-web-site-webforms-project-template-from-devexpress-template-gallery-t590526)
