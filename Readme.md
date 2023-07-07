@@ -31,4 +31,4 @@ This example is based on the **Blog Web Site** project template available in the
 
 ## More Examples
 
-* [ASP.NET Web Form Controls - A blog web site](https://github.com/DevExpress-Examples/blog-web-site-webforms-project-template-from-devexpress-template-gallery-t590526)
+* [ASP.NET Web Forms Controls - A blog web site](https://github.com/DevExpress-Examples/blog-web-site-webforms-project-template-from-devexpress-template-gallery-t590526)
