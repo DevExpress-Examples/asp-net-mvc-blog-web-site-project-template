@@ -6,7 +6,7 @@
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/t591214/)**
 <!-- run online end -->
-This example is based on the **Blog Web Site** project template available in the [DevExpress Template Gallery](https://docs.devexpress.com/AspNetMvc/402256/whats-installed/template-gallery). The template uses [DevExpress ASP.NET MVC extensions](https://docs.devexpress.com/AspNetMvc/7896/aspnet-mvc-extensions) and [Bootstrap](https://getbootstrap.com/) elements to create a responsive web application with blog functions and integrated full-text search.
+This example is based on the **Blog Web Site** project template available in the [DevExpress Template Gallery](https://docs.devexpress.com/AspNetMvc/402256/whats-installed/template-gallery). The template uses [DevExpress ASP.NET MVC extensions](https://docs.devexpress.com/AspNetMvc/7896/aspnet-mvc-extensions) and [Bootstrap](https://getbootstrap.com/) elements to create a responsive web application with blog functionality and integrated full-text search.
 
 ![Blog Web Site](image.png)
 
