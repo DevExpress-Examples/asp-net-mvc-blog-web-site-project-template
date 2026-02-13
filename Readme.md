@@ -32,7 +32,7 @@ This example is based on the **Blog Web Site** project template available in the
 
 * [ASP.NET Web Forms Controls - A blog web site](https://github.com/DevExpress-Examples/blog-web-site-webforms-project-template-from-devexpress-template-gallery-t590526)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-blog-web-site-project-template&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=asp-net-mvc-blog-web-site-project-template&~~~was_helpful=no)
 
